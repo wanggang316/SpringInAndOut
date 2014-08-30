@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D647194F19B1E36C00AD92B2 /* content@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D647194E19B1E36C00AD92B2 /* content@2x.PNG */; };
 		D6C942C219B0291000973834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C942C119B0291000973834 /* Foundation.framework */; };
 		D6C942C419B0291000973834 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C942C319B0291000973834 /* CoreGraphics.framework */; };
 		D6C942C619B0291000973834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C942C519B0291000973834 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D647194E19B1E36C00AD92B2 /* content@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content@2x.PNG"; sourceTree = "<group>"; };
 		D6C942BE19B0291000973834 /* DynamicMoving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicMoving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C942C119B0291000973834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D6C942C319B0291000973834 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +120,7 @@
 				D6C942D619B0291000973834 /* WGViewController.h */,
 				D6C942D719B0291000973834 /* WGViewController.m */,
 				D6C942D919B0291000973834 /* Images.xcassets */,
+				D647194E19B1E36C00AD92B2 /* content@2x.PNG */,
 				D6C942C819B0291000973834 /* Supporting Files */,
 			);
 			path = DynamicMoving;
@@ -231,6 +234,7 @@
 			files = (
 				D6C942DA19B0291000973834 /* Images.xcassets in Resources */,
 				D6C942CC19B0291000973834 /* InfoPlist.strings in Resources */,
+				D647194F19B1E36C00AD92B2 /* content@2x.PNG in Resources */,
 				D6C942D519B0291000973834 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +461,7 @@
 				D6C942F219B0291000973834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6C942F319B0291000973834 /* Build configuration list for PBXNativeTarget "DynamicMovingTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				D6C942F519B0291000973834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
